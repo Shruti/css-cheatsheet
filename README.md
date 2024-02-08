@@ -105,20 +105,61 @@ Here, 'box' is the selector and the declaration block is the entire thing inside
 
 | Property | Values | Example |
 | --- | --- | --- |
-padding-bottom | length %	| padding-bottom : 20px
-padding-top	| length %	| padding-top : 20px
-padding-right	| length %	| padding-right : 20px
-padding-left | length %	| padding-left : 20px
-display | none/inline/block/inline-block/list-item/run-in/compact/table/inline-table/table-row-group/table-headergroup/table-footer-group/table-row/table-column-group/table-column/table-cell/table-caption/ruby/ruby-base/ruby-text/ruby-base-group/ruby-text-group |	display : inline |
-marquee-direction | forward/reverse |	marquee-direction : forward |
-marquee-loop | infinite/integer | marquee-loop : 10 |
-marquee-play-count | infinite/integer | marquee-play-count : 50 |
-marquee-speed |	slow/normal/fast | marquee-speed : slow |
-marquee-style	| scroll/slide/alternate | marquee-style : scroll |
-overflow | visible/hidden/scroll/auto/no-display/no-content/overflow-x/overflow-y | overflow : visible |
-overflow-style | auto/marquee-line/marquee-block | overflow-style : auto |
-overflow-x | visible/hidden/scroll/auto/no-display/no-content |	overflow-x : scroll |
-rotation | angle | rotation : 20deg |
-rotation-point | position (paired value off-set) | rotation-point : 50% 50% |
-visibility | visible/hidden/collapse | visibility: hidden |
-clear |	left/right/both/none |	clear: left |
+| padding-bottom | length %	| padding-bottom : 20px
+| padding-top	| length %	| padding-top : 20px
+| padding-right	| length %	| padding-right : 20px
+| padding-left | length %	| padding-left : 20px
+| display | none/inline/block/inline-block/list-item/run-in/compact/table/inline-table/table-row-group/table-headergroup/table-footer-group/table-row/table-column-group/table-column/table-cell/table-caption/ruby/ruby-base/ruby-text/ruby-base-group/ruby-text-group | display : inline |
+| marquee-direction | forward/reverse |	marquee-direction : forward |
+| marquee-loop | infinite/integer | marquee-loop : 10 |
+| marquee-play-count | infinite/integer | marquee-play-count : 50 |
+| marquee-speed |	slow/normal/fast | marquee-speed : slow |
+| marquee-style	| scroll/slide/alternate | marquee-style : scroll |
+| overflow | visible/hidden/scroll/auto/no-display/no-content/overflow-x/overflow-y | overflow : visible |
+| overflow-style | auto/marquee-line/marquee-block | overflow-style : auto |
+| overflow-x | visible/hidden/scroll/auto/no-display/no-content |	overflow-x : scroll |
+| rotation | angle | rotation : 20deg |
+| rotation-point | position (paired value off-set) | rotation-point : 50% 50% |
+| visibility | visible/hidden/collapse | visibility: hidden |
+| clear |	left/right/both/none |	clear: left |
+
+
+# 7. Template Layout 
+
+| Property | Values | Example |
+| --- | --- | --- |
+| box-align |	start/end/center/base |	box-align : start |
+| box-direction |	normal/reverse | box-direction : normal |
+| box-flex |	normal | box-flex : normal |
+| box-flex-group | integer | box-flex-group : 2 |
+| box-lines |	single/multiple |	box-lines : single |
+| box-orient |	horizontal/vertical/inline-axis/block-axis | box-orient : inline |
+| box-pack | start/end/center/justify	| box-pack : justify |
+| box-sizing | content-box/padding-box/border-box/margin-box | box-sizing : margin-box |
+| tab-side | top/bottom/left/right | tab-side : left |
+
+
+# 8. Table
+
+| Property | Possible Values |
+| --- | --- |
+| border-collapse |	collapse/separate |
+| empty-cells |	show/hide |
+| border-spacing |	?%/?px |
+| table-layout |	auto/fixed |
+| caption-side | top/bottom/left/right |
+
+
+# 9. Columns 
+
+| Property | Values | Example |
+| --- | --- | --- |
+| column-count |	auto/number | column-count : 10 |
+| column-fill |	auto/balance/balance-all | column-fill : balance |
+| column-gap	| normal/?px |	column-gap : 5px |
+| column-rule-width |	thin/medium/thick/?px	| column-rule-width : medium column-rule-width : 2px |
+| column-rule-style	| border-style – dotted/solid/hidden/double/ dashed/groove/hidden/inset/outset/inherit	| column-rule-style : dotted |
+| column-rule-color |	color	| column-rule-color : black |
+| column-width |	auto/?px | column-width : 10px |
+| column-span	| 1/all |	column-span : all |
+
