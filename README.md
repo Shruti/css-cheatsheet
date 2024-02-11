@@ -163,3 +163,18 @@ Here, 'box' is the selector and the declaration block is the entire thing inside
 | column-width |	auto/?px | column-width : 10px |
 | column-span	| 1/all |	column-span : all |
 
+
+# 10. Colors 
+| Property | Values | Example |
+| --- | --- | --- |
+| color	| inherit/color |	color : green |
+| opacity |	inherit/number level |	opacity : 4 |
+
+
+
+# 11. Grid Positioning 
+| Property | Values | Example |
+| --- | --- | --- |
+| grid-columns |	none/inherit/?px/?%/x%-y%	| grid-columns : 10px |
+| grid-rows |	none/inherit/?px/?%/x%-y%	| grid-rows : 40% |
+
