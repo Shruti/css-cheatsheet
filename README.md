@@ -178,3 +178,44 @@ Here, 'box' is the selector and the declaration block is the entire thing inside
 | grid-columns |	none/inherit/?px/?%/x%-y%	| grid-columns : 10px |
 | grid-rows |	none/inherit/?px/?%/x%-y%	| grid-rows : 40% |
 
+
+
+# 12. List and Markers 
+| Property | Values |
+| --- | --- |
+| list-style-type	| none/asterisks/box/check/circle/diamond/disc/hyphen/square/decimal/decimal-leading-zero/lower-roman/upper-roman/lower-alpha/upper-alpha/lower-greek/lower-latin/upper-latin/hebrew/armenian/georgian/cjk-ideographic/hiragana/katakana/hiragana-iroha/katakana-iroha/footnotes **Example: { list-style-type : upper-roman}** |
+| list-style-position	| ?%/?px **Example: list-style-position : 20px** |
+| list-style-image | none/url **Example: list-style-image : url(‘hackrhome.gif’);** |
+| marker-offset	| auto/?px **Example: marker-offset : auto** |
+
+
+# 13. Animations
+| Property | Values | Example |
+| --- | --- | --- |
+| animation-name |	none/ID	animation-name : myfirstanim |
+| animation-duration |	time	animation-duration : 5s |
+| animation-timing-function |	ease/linear/ease-in/easeout/ease-in-out/cubic-Bezier(number, number, number, number)	animation-timing-function : linear; |
+| animation-delay	time |	animation-delay : 5ms |
+| animation-iteration-count |	inherit/number	animation-iteration-count : 5 |
+| animation-direction |	normal/alternate	animation-direction :  alternate |
+| animation-play-state | running/paused	animation-play-state : running |
+| animation-fill-mode |	None/backwards/ forwards/both/initial/inherit |	animation-fill-mode : both |
+
+
+
+# 14. Outline
+| Property | Values | Example |
+| --- | --- | --- |
+| outline-color |	Color name | outline-color : green |
+| outline-style	| none/dotted/dashed/solid/double/groove/ridge/inset/outset |	outline-style : solid |
+| outline-width |	thin/medium/thick/?px |	outline-width : medium outline-width : 20px |
+| outline-offset | inherit/?px | outline-offset :  15px |
+
+
+
+# 15. Hyperlink
+| Property | Values | Example |
+| --- | --- | --- |
+| target-name |	current/root/parent/new/modal/"string" | target-name : parent |
+| target-new | tab/window/none | target-new : window |
+| target-position |	front/back/above/behind	| target-position : front |
