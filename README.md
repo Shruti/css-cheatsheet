@@ -192,13 +192,13 @@ Here, 'box' is the selector and the declaration block is the entire thing inside
 # 13. Animations
 | Property | Values | Example |
 | --- | --- | --- |
-| animation-name |	none/ID	animation-name : myfirstanim |
-| animation-duration |	time	animation-duration : 5s |
-| animation-timing-function |	ease/linear/ease-in/easeout/ease-in-out/cubic-Bezier(number, number, number, number)	animation-timing-function : linear; |
-| animation-delay	time |	animation-delay : 5ms |
-| animation-iteration-count |	inherit/number	animation-iteration-count : 5 |
-| animation-direction |	normal/alternate	animation-direction :  alternate |
-| animation-play-state | running/paused	animation-play-state : running |
+| animation-name |	none/ID	| animation-name : myfirstanim |
+| animation-duration |	time |	animation-duration : 5s |
+| animation-timing-function |	ease/linear/ease-in/easeout/ease-in-out/cubic-Bezier(number, number, number, number) |	animation-timing-function : linear; |
+| animation-delay	| time |	animation-delay : 5ms |
+| animation-iteration-count |	inherit/number |	animation-iteration-count : 5 |
+| animation-direction |	normal/alternate	| animation-direction :  alternate |
+| animation-play-state | running/paused	| animation-play-state : running |
 | animation-fill-mode |	None/backwards/ forwards/both/initial/inherit |	animation-fill-mode : both |
 
 
